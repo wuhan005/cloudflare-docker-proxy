@@ -4,12 +4,12 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "cloudflare-docker-proxy.e99.workers.dev": "https://registry-1.docker.io",
-  // "quay.libcuda.so": "https://quay.io",
-  // "gcr.libcuda.so": "https://gcr.io",
-  // "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  // "ghcr.libcuda.so": "https://ghcr.io",
-  // "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
+  "docker.lycoris.ac.cn": "https://registry-1.docker.io",
+  "quay.lycoris.ac.cn": "https://quay.io",
+  "gcr.lycoris.ac.cn": "https://gcr.io",
+  "k8s-gcr.lycoris.ac.cn": "https://k8s.gcr.io",
+  "ghcr.lycoris.ac.cn": "https://ghcr.io",
+  "cloudsmith.lycoris.ac.cn": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
